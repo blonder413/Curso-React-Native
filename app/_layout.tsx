@@ -32,7 +32,7 @@ export default function RootLayout() {
                     name="(product)"
                     options={{ headerShown: false }}
                 />
-                {/* <Stack.Screen name="details" /> */}
+                <Stack.Screen name="details" />
                 <Stack.Screen name="+not-found" />
             </Stack>
             <StatusBar style="auto" />
