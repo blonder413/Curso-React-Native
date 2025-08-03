@@ -9,7 +9,7 @@ export default function ProductLayout() {
                 headerTitleStyle: { fontWeight: "bold" },
             }}
         >
-            <Stack.Screen name="details" />
+            <Stack.Screen name="details/[id]" />
         </Stack>
     );
 }
