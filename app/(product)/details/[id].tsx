@@ -8,9 +8,8 @@ const products = [
 ];
 
 export default function DetailScreen() {
-    const { id } = useLocalSearchParams();
-    const productId = Array.isArray(id) ? id[0] : id;
-    const product = products.find((p) => p.id === parseInt(productId));
+    const { id } = useLocalSearchParams<{ id: string }>();
+    const product = products.find((p) => p.id === parseInt(id));
     return (
         <ThemedView>
             <ThemedText>
