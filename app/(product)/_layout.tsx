@@ -7,6 +7,7 @@ export default function ProductLayout() {
                 headerStyle: { backgroundColor: "#f6c455" },
                 headerTintColor: "#fff",
                 headerTitleStyle: { fontWeight: "bold" },
+                orientation: 'landscape'
             }}
         >
             <Stack.Screen name="details/[id]" />
